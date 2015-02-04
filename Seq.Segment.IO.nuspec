@@ -1,0 +1,17 @@
+﻿<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Seq.App.Segment</id>
+    <version>0.1.0</version>
+    <authors>bytenik</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An app for Seq (http://getseq.net) that forwards messages to Segment.io.</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/bytenik/Seq.App.Segment</projectUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <iconUrl>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqZBXiA9KFNuOZT3mcUj8wjx5c1-HTIqlZGwit6utEvRC37kPHdMkHP8QESg</iconUrl>
+    <tags>seq-app seq serilog events Segment.io</tags>
+  </metadata>
+  <files>
+    <file src="bin\Debug\*.dll" target="lib\net45" exclude="bin\Debug\Seq.Apps.*;bin\Debug\Serilog.*" />
+  </files>
+</package>
