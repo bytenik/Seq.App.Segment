@@ -7,8 +7,8 @@
     <ProjectGuid>{80C336AB-5408-45E5-9D41-850CDF0DAD46}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Seq.Slack</RootNamespace>
-    <AssemblyName>Seq.Slack</AssemblyName>
+    <RootNamespace>Seq.Segment</RootNamespace>
+    <AssemblyName>Seq.Segment</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
